@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects | Your Name</title>
+<meta name="description" content="Selected projects by Your Name.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<noscript><style>.reveal{opacity:1!important}</style></noscript>
+</head>
+<body data-page="projects">
+<div class="blobs"><span></span><span></span><span></span></div>
+
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a class="logo" href="index.html">YN<span>.</span></a>
+    <button class="burger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <ul>
+      <li><a data-p="home" href="index.html">Home</a></li>
+      <li><a data-p="about" href="about.html">About</a></li>
+      <li><a data-p="education" href="education.html">Education</a></li>
+      <li><a data-p="skills" href="skills.html">Skills</a></li>
+      <li><a data-p="projects" href="projects.html">Projects</a></li>
+      <li><a data-p="experience" href="experience.html">Experience</a></li>
+      <li><a data-p="contact" href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+  <div class="progress"></div>
+</header>
+
+<main>
+  <section class="page">
+    <div class="wrap">
+      <div class="page-head reveal">
+        <span class="eyebrow">Projects</span>
+        <h1 class="title">Things I've <span class="grad">built</span></h1>
+        <p>A selection of work that shows how I think and what I can deliver.</p>
+      </div>
+
+      <div class="filters reveal">
+        <button class="active" data-filter="all">All</button>
+        <button data-filter="web">Web</button>
+        <button data-filter="app">Apps</button>
+        <button data-filter="design">Design</button>
+      </div>
+
+      <!-- Replace "#" in the links with your live demo / GitHub URLs -->
+      <div class="projects">
+        <article class="card project reveal" data-cat="web" style="--c1:#3b82f6;--c2:#1e3a8a">
+          <div class="thumb" style="--c1:#3b82f6;--c2:#1e3a8a"><span>Web</span></div>
+          <h3>Personal Portfolio</h3>
+          <p>A fast, animated multi-page portfolio with a clean white and blue design.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <div class="plinks"><a href="#">Live demo</a><a href="#">Source code</a></div>
+        </article>
+        <article class="card project reveal" data-cat="web app" style="--d:.1s">
+          <div class="thumb" style="--c1:#60a5fa;--c2:#1d4ed8"><span>App</span></div>
+          <h3>Task Manager</h3>
+          <p>Plan, track and complete tasks with drag-and-drop boards and cloud sync.</p>
+          <div class="tags"><span>React</span><span>Firebase</span></div>
+          <div class="plinks"><a href="#">Live demo</a><a href="#">Source code</a></div>
+        </article>
+        <article class="card project reveal" data-cat="design" style="--d:.2s">
+          <div class="thumb" style="--c1:#38bdf8;--c2:#2563eb"><span>UI Kit</span></div>
+          <h3>E-Commerce UI Kit</h3>
+          <p>A complete set of reusable screens and components for an online store.</p>
+          <div class="tags"><span>Figma</span><span>UI Design</span></div>
+          <div class="plinks"><a href="#">View design</a></div>
+        </article>
+        <article class="card project reveal" data-cat="web">
+          <div class="thumb" style="--c1:#2563eb;--c2:#0ea5e9"><span>Data</span></div>
+          <h3>Weather Dashboard</h3>
+          <p>Live forecasts for any city with charts, search and a clean responsive layout.</p>
+          <div class="tags"><span>JavaScript</span><span>API</span><span>Charts</span></div>
+          <div class="plinks"><a href="#">Live demo</a><a href="#">Source code</a></div>
+        </article>
+        <article class="card project reveal" data-cat="app" style="--d:.1s">
+          <div class="thumb" style="--c1:#1d4ed8;--c2:#312e81"><span>Mobile</span></div>
+          <h3>Fitness Tracker</h3>
+          <p>A mobile app to log workouts, set goals and visualise progress over time.</p>
+          <div class="tags"><span>Flutter</span><span>SQLite</span></div>
+          <div class="plinks"><a href="#">Live demo</a><a href="#">Source code</a></div>
+        </article>
+        <article class="card project reveal" data-cat="design" style="--d:.2s">
+          <div class="thumb" style="--c1:#93c5fd;--c2:#2563eb"><span>Brand</span></div>
+          <h3>Brand Identity Pack</h3>
+          <p>Logo, colour palette and social media templates for a local startup.</p>
+          <div class="tags"><span>Illustrator</span><span>Branding</span></div>
+          <div class="plinks"><a href="#">View design</a></div>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <p>© <span class="yr">2026</span> Your Name. All rights reserved.</p>
+    <div><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a><a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a><a href="contact.html">Contact</a></div>
+  </div>
+</footer>
+<script src="script.js" defer></script>
+</body>
+</html>
